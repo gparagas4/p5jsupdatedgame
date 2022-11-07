@@ -7,13 +7,11 @@ let goingForwardEven = false;
 let ArrowLeft = true;
 let ArrowRight  = false;
 
-const speed = 8;
+const speed = 10;
 
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
   background ("skyblue")
-
-  
 }
 
 function draw() {
